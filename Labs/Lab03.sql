@@ -17,6 +17,7 @@ join SalesLT.CustomerAddress as ca
 on c.CustomerID = ca.CustomerID
 join SalesLT.Address as a
 on ca.AddressID = a.AddressID
+where ca.AddressType = 'Main Office'
 
 --Challenge 2: Retrieve Sales Data
 /*The sales manager wants a list of all customer companies and their contacts (first name and last name),
