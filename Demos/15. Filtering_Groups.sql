@@ -6,7 +6,7 @@ from SalesLT.SalesOrderHeader
 group by CustomerID
 having COUNT(*) > 10
 
-select YEAR(soh.OrderDate) as Year, ProductID, sod.OrderQty
+select ProductID, sod.OrderQty
 from SalesLT.SalesOrderDetail as sod
 join SalesLT.SalesOrderHeader as soh
 on sod.SalesOrderID = soh.SalesOrderID
