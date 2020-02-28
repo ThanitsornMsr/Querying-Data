@@ -1,4 +1,4 @@
-Querying Data with Transact-SQL by Microsoft 
+# Querying Data with Transact-SQL by Microsoft 
 
 edX (https://www.edx.org/course/querying-data-with-transact-sql-2)
 
